@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     // INLINE STYLING
     let cuisineStyle = {
-      "backgroundImage": "linear-gradient(rgba(1, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cuisine.jpg)",
+      "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cuisine.jpg)",
       "backgroundSize": "cover",
       "textShadow": "1px 1px 2px black",
       "height": "100%",
@@ -43,7 +43,7 @@ export default class Home extends Component {
             </h2>
             <hr/>
             <p className="primary-text">D
-              Man on the moon.
+              Man on the moon. 
             </p>
           </article>
         </section>
